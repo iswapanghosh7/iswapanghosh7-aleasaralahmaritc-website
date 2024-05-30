@@ -184,29 +184,29 @@
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Request A Free Quote</h1>
                 <p class="mb-4">nlock the potential of your business with tailored IT solutions from Aleasar Alahmar IT Consultants. Fill out the form below to receive a personalized consultation and competitive quote from our expert team. Start your journey towards seamless IT integration today and see how we can help your business thrive with innovative and efficient IT services designed to meet your unique needs and goals.</p>
-                <form>
-                    <div class="row gx-3">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="fdc425cb-5e65-40c8-a57d-86c27341b0e0">                    <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="form-floating-1" placeholder="John Doe">
+                                <input type="text" class="form-control" id="form-floating-1" name="Name" placeholder="John Doe">
                                 <label for="form-floating-1">Full Name</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="form-floating-2" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="form-floating-2" name="Email" placeholder="name@example.com">
                                 <label for="form-floating-2">Email address</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Managed IT Services">
+                                <select class="form-select" name="Option" id="floatingSelect" aria-label="Managed IT Services">
                                     <option selected>Managed IT Services</option>
-                                    <option value="1">Business Continuity</option>
-                                    <option value="2">Data Protection Solutions</option>
-                                    <option value="3">Managed Cyber Security</option>
-                                    <option value="4">Telecommunications</option>
-                                    <option value="5">IT Consulting Services</option>
+                                    <option value="Business Continuity">Business Continuity</option>
+                                    <option value="Data Protection">Data Protection Solutions</option>
+                                    <option value="Managed Cyber Security">Managed Cyber Security</option>
+                                    <option value="Telecommunications">Telecommunications</option>
+                                    <option value="IT Consulting Services">IT Consulting Services</option>
                                 </select>
                                 <label for="floatingSelect">Select A Service</label>
                             </div>
