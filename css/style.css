@@ -257,13 +257,16 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
-@media screen and (max-width: 770px) {
-    .temp1{
+@media screen and (max-width: 720px) and (min-width: 0px){
+    .desktopview{
         display: none;
+
     }
     .py-6 {
     padding-top: 90px;
     padding-bottom: 0px;
+   }
+    
 }
-}
+
 
